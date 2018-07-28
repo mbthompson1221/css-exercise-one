@@ -1,9 +1,9 @@
 body {
   font-size: 14px;
 }
-
+/**This is the navigation which is set to be fixed at the top with a background color of yellow **/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
@@ -14,17 +14,17 @@ section {
   margin: 0 auto;
   width: 60%;
 }
-
+/**This is the font type and font size of all h1 elements **/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center
 }
-
+/**This is the font size of all h3 elements**/
 h3 {
   font-size: 1.3em;
 }
@@ -32,6 +32,10 @@ h3 {
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+/**This alters the background color of the last three div elements to pink**/
+.element.pink {
+  background-color: pink;
 }
